@@ -1,5 +1,32 @@
-### Hi there 👋
+# Mark De Guzman
 
+### Currently a BCIT student learning the ways of COMPSCI
+
+### Some stuff I know
+* Java
+* Python
+* C
+* SQL
+
+### Some stuff I'm currently learning
+* React.js
+* Flutter
+* Android Studios
+* Microsoft Azure
+* Laravel
+
+### Some more stuff I know
+* Firebase
+* Heroku
+* PHP
+* Wordpress
+* OOP
+* HTML/CSS/JS
+* node.js
+* Discord API
+* MySQL
+
+Fun Fact about myself: I secretly enjoy programming more than I do gaming (Don't tell anybody 😄)
 <!--
 **mark-p7/mark-p7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
