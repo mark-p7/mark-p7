@@ -14,17 +14,14 @@
 * Android Studios
 * Microsoft Azure
 * Laravel
+* Wordpress
+* PHP
 
 ### Some more stuff I know
 * Firebase
 * Heroku
-* PHP
-* Wordpress
 * OOP
 * HTML/CSS/JS
-* node.js
-* Discord API
-* MySQL
 
 Fun Fact about myself: I secretly enjoy programming more than I do gaming (Don't tell anybody 😄)
 <!--
