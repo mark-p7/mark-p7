@@ -2,13 +2,13 @@
 
 ### Currently a BCIT student learning the ways of COMPSCI
 
-### Some stuff I know
+### Some stuff I know 😎
 * Java
 * Python
 * C
 * SQL
 
-### Some stuff I'm currently learning
+### Some stuff I'm currently learning 🎓
 * React.js
 * Flutter
 * Android Studios
@@ -17,13 +17,15 @@
 * Wordpress
 * PHP
 
-### Some more stuff I know
+### Some more stuff I know 🤯
 * Firebase
 * Heroku
 * OOP
 * HTML/CSS/JS
 
-Fun Fact about myself: I secretly enjoy programming more than I do gaming (Don't tell anybody 😄)
+### Some Fun Facts ⚡:
+* My favourite anime is Code Geass
+* I love Java
 <!--
 **mark-p7/mark-p7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
