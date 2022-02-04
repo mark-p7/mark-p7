@@ -11,11 +11,9 @@
 ### Some stuff I'm currently learning 🎓
 * React.js
 * Flutter
-* Android Studios
 * Microsoft Azure
 * Laravel
 * Wordpress
-* PHP
 
 ### Some more stuff I know 🤯
 * Firebase
