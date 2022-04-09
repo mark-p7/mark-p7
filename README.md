@@ -20,6 +20,7 @@
 * Heroku
 * OOP
 * HTML/CSS/JS
+* Node.js
 
 ### Some Fun Facts ⚡:
 * My favourite anime is Code Geass
