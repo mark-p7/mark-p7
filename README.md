@@ -1,6 +1,7 @@
 # Mark De Guzman
 
 ### Currently a BCIT student learning the ways of COMPSCI
+### Work In progress: https://markdeguzmanportfolio.vercel.app/
 
 ### Some stuff I know 😎
 * Java
