@@ -1,31 +1,7 @@
 # Mark De Guzman
 
-### Currently a BCIT student learning the ways of COMPSCI
-### Work In progress: https://markdeguzmanportfolio.vercel.app/
+### Currently a BCIT student learning computer language ⚡
 
-### Some stuff I know 😎
-* Java
-* Python
-* C
-* SQL
-
-### Some stuff I'm currently learning 🎓
-* React.js
-* Flutter
-* Microsoft Azure
-* Laravel
-* Wordpress
-
-### Some more stuff I know 🤯
-* Firebase
-* Heroku
-* OOP
-* HTML/CSS/JS
-* Node.js
-
-### Some Fun Facts ⚡:
-* My favourite anime is Code Geass
-* I love Java
 <!--
 **mark-p7/mark-p7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
