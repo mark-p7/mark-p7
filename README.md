@@ -1,14 +1,9 @@
 <h1 align="center">Hi, I'm Mark 👋</h1>
 
 <p align="center">
-  <b>Software Engineer · Security & ML-Focused · BCIT '26</b><br/>
-  Ex Dayforce (Ceridian) · Ex PUMA Utility Monitoring · Vancouver, BC
-</p>
-
-<p align="center">
   <a href="https://www.markdeguzman.com">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/mark-p7">LinkedIn</a> ·
-  <a href="mailto:markdeguzman777@gmail.com">Email</a>
+  <a href="mailto:markdeguzman204@gmail.com">Email</a>
 </p>
 
 ---
@@ -21,28 +16,6 @@
 - Systems that turn manual, error-prone workflows into **repeatable pipelines with tests, metrics, and docs**.
 
 I’m currently finishing my BSc in Computer Science at the **British Columbia Institute of Technology (BCIT)** and actively working on security + ML heavy projects, alongside real-world web apps.
-
----
-
-## 💼 Industry experience
-
-**Software Developer Intern – Dayforce (Benefits Team)**  
-*React · TypeScript · C#/.NET · SQL Server · Azure DevOps*
-
-- Shipped production **micro-frontends** for enterprise benefits workflows in a large monorepo environment.
-- Bootstrapped a **shared Jest/React Testing Library framework**, growing test coverage from zero to **100+ frontend unit tests**, which later scaled to over **1200+ today**.
-
-**Software Developer Intern – PUMA Utility Monitoring**  
-*Python · SQL Server · Selenium · Data ingestion/ETL*
-
-- Automated generation of client **utility usage reports** with Python + SQL Server, cutting manual report prep time by ~**30%** and freeing the team to focus on client-facing work.
-- Integrated sub-metering data via **Kepware/ODBC** into SQL Server, building robust ETL paths for live dashboards and analytics.
-- Helped clean up legacy SQL structures and scripts, making future automation and reporting far easier.
-
-**Leadership & Community**
-
-- **VP, Coding Club @ BCIT** – run workshops, code-along sessions, and exam review classes for 30+ students.
-- Enjoyed mentoring peers on frontend testing, TypeScript, and getting projects from “demo” to “deployable.”
 
 ---
 
