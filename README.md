@@ -22,7 +22,7 @@ I’m currently finishing my BSc in Computer Science at the **British Columbia I
 ## 🚀 Featured projects
 
 ### Sentinel – GNN Supply Chain Attack Detection (npm)
-**Repo:** [GNN-Supply-Chain-Attack-Detection](https://github.com/mark-p7/GNN-Supply-Chain-Attack-Detection)
+**Repo:** [Sentinel](https://github.com/mark-p7/Sentinel)
 
 Graph-neural-network-based tooling to detect suspicious packages and dependencies in the **npm** ecosystem.
 
