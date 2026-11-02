@@ -1,124 +1,28 @@
-<h1 align="center">Hi, I'm Mark 👋</h1>
+# Hi, I'm Mark
 
-<p align="center">
-  <a href="https://www.markdeguzman.com">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/mark-p7">LinkedIn</a> ·
-  <a href="mailto:markdeguzman204@gmail.com">Email</a>
-</p>
+I build backend services and network security tools, mostly in C, Python, and C#. Lately that means covert channels, password crackers, steganography, and supply-chain attack detection.
 
----
+## Security & networking projects
 
-## 🧠 What I like building
+| Project | What it does | Stack |
+|---|---|---|
+| [**KNOCC**](https://github.com/mark-p7/KNOCC) | Commander/victim backdoor simulation that stays dark until a port-knock sequence, then hides all traffic in UDP length and checksum fields. Go-back-N on top keeps delivery reliable over a few bytes per packet. The README covers how an IDS and `/proc` cross-checks catch it. | Python, raw UDP |
+| [**CHASM**](https://github.com/mark-p7/CHASM) | Distributed `crypt(3)` hash cracker. The server hands out keyspace blocks over TCP, tracks checkpoints, and reissues unfinished work when a client dies. Blocks are computed from an index with base-79 math, so no wordlist is stored. | C, pthreads, sockets |
+| [**Sentinel**](https://github.com/mark-p7/Sentinel) | GNN that flags malicious npm packages from 41 features per package across the dependency graph. Includes registry crawlers, simulated supply-chain attacks for training data, and a monitor that re-scans packages when a dependency updates. | Python, PyTorch Geometric, Neo4j, Redis |
+| [**SHADE**](https://github.com/mark-p7/SHADE) | Hides any file in a PNG's blue-channel LSBs after encrypting it with Fernet, so a wrong key or modified payload fails authentication instead of producing garbage. | Python, `cryptography` |
+| [**CoDefend**](https://github.com/mark-p7/CoDefend) | Chrome extension that intercepts downloads and fans them out to VirusTotal, Cloudmersive, and Bytescale through a Node backend before the download completes. Also checks URL reputation on click. | JavaScript, Node.js |
 
-- End-to-end **security tools** – supply chain attack detection, encrypted traffic monitoring, malware scanning.
-- **ML-powered developer tooling** – graph neural networks over package ecosystems, intelligent document parsing.
-- **Full-stack products** – TypeScript/React/Next.js frontends backed by robust APIs in Node.js or C#/.NET.
-- Systems that turn manual, error-prone workflows into **repeatable pipelines with tests, metrics, and docs**.
+> [!WARNING]
+> KNOCC and CHASM are offensive security research projects, built to study how these attacks work and how to detect them. Run them only in isolated labs, on systems you own or are explicitly authorized to test.
 
-I’m currently finishing my BSc in Computer Science at the **British Columbia Institute of Technology (BCIT)** and actively working on security + ML heavy projects, alongside real-world web apps.
+## Other projects
 
----
+- [**Melloww**](https://github.com/mark-p7/Melloww): journaling and mood-tracking web app built with a small team. Next.js, TypeScript, Tailwind, Express, MongoDB.
+- [**EngineerInTech**](https://github.com/mark-p7/EngineerInTech): matches engineers by the skills they want to teach and learn. TypeScript client and Node server.
+- [**NoteTed**](https://github.com/mark-p7/NoteTed): server-rendered note-taking app with cross-device sync. Next.js, MUI, Firebase.
 
-## 🚀 Featured projects
+## Tools I reach for
 
-### Sentinel – GNN Supply Chain Attack Detection (npm)
-**Repo:** [Sentinel](https://github.com/mark-p7/Sentinel)
+C · C# / .NET · Python · TypeScript · Kafka · Docker · Kubernetes · PostgreSQL · Neo4j · Wireshark · tcpdump
 
-Graph-neural-network-based tooling to detect suspicious packages and dependencies in the **npm** ecosystem.
-
-- Builds a **dependency graph** over npm packages and release metadata, then uses a GNN to flag anomalous nodes.
-- Pipeline in **Python** with **Neo4j** (graph store), **PyTorch Geometric** (GNN), and **ONNX** (for portable inference).
-- Targets patterns like **supply-chain attacks**: sudden maintainer changes, typosquats, unusual fan-out/fan-in, and odd versioning behaviour.
-
----
-
-### CoDefend – Chrome Extension for Decentralized Malware Analysis
-**Repo:** [CoDefend](https://github.com/mark-p7/CoDefend)
-
-A security-first Chrome extension that scans downloads **before they hit disk**.
-
-- Intercepts browser downloads and forwards files/URLs to a **Node.js backend** for scanning with multiple AV and reputation engines.
-- Designed to **decentralize malware analysis**: the extension stays lightweight while the backend fans out to external scanners.
-- Built with **JavaScript/TypeScript, Node, Express**, and REST APIs, with a strong focus on user safety and clear risk reporting.
-
----
-
-### HarbourFile – Real Estate Document Intelligence (WIP)
-
-Early-stage B2B SaaS aimed at **property managers, landlords, and regulators**.
-
-- Extracts structured data from leases, invoices, compliance forms, and scanned PDFs using **OCR + LLMs**.
-- Uses tools like **Surya-OCR**, **Azure Document Intelligence**, and a **vector database (e.g., Qdrant)** for semantic search over documents.
-- Focused on real-world pain points: compliance checks, expiry tracking, and reducing the time required to find critical clauses.
-
----
-
-### Mellow – Mental Health Journaling Web App  
-**Repo:** [Melloww](https://github.com/mark-p7/Melloww)
-
-A mobile-first **mental health journaling + social** platform built with a small team.
-
-- Led both design and development in a semi-agile process; guided junior teammates through bugs, PRs, and reviews.
-- Features journaling, mood tracking, and community-style interactions.
-- Stack: **TypeScript, Next.js, Tailwind CSS, shadcn/ui, Node.js, Express, MongoDB**.
-
----
-
-### EngineerIn.tech – “Tinder for Engineers”  
-**Repo:** [EngineerInTech](https://github.com/mark-p7/EngineerInTech)
-
-A platform for engineers to meet by **teaching each other skills** instead of swiping on job posts.
-
-- Full-stack TypeScript project with a separate `client` and `server` codebase.
-- Matching flow focuses on **skills you’d like to teach** and **skills you’d like to learn**.
-- Stack: TypeScript SPA client + Node backend; deployed at **engineerin.tech**.
-
----
-
-### NoteTed – SSR Note-Taking App  
-**Repo:** [NoteTed](https://github.com/mark-p7/NoteTed)
-
-Fast note-taking app with **Next.js SSR** and Firebase.
-
-- Users can register/login and create notes that sync across devices.
-- Achieves instant load times via **server-side rendering** and efficient data fetching.
-- Stack: **Next.js, React, MUI, Firebase Auth, Firebase Firestore**.
-
----
-
-## 🧰 Tech I use a lot
-
-**Languages**  
-TypeScript · C# · Python · JavaScript · C/C++ · Java · SQL
-
-**Backend**  
-Node.js · Express · FastAPI · .NET · REST APIs · WebSockets
-
-**Frontend & Mobile**  
-React · Next.js (App Router) · React Native · Tailwind CSS · shadcn/ui · MUI
-
-**Data, ML & Storage**  
-PyTorch Geometric · XGBoost · Neo4j · SQL Server · MongoDB · Firebase (Auth/Firestore) · Vector DBs (Qdrant)
-
-**DevOps & Tooling**  
-Docker · GitHub Actions · Azure DevOps · Vercel · Cloudflare · npm/yarn/pnpm · Jest · React Testing Library · pytest
-
----
-
-## 📌 A few other things I've built
-
-- **EventPrompt** – Discord bot for timed reminders using **Discord.js, Express, Firebase Firestore**.
-- **Anonymous Confession App** – Android app with **Firebase Auth** + **Cloud Firestore** and privacy-preserving login.
-- **UBC Solar Website** – Mobile-first React site for the UBC Solar team, built with **HTML, CSS, JavaScript, React**.
-
----
-
-## 👀 What I’m looking for
-
-I’m excited about roles where I can:
-
-- Work close to **security, ML, or developer tooling**.
-- Own features end-to-end – from design docs and data pipelines to tests, dashboards, and production readiness.
-- Collaborate with strong engineers who care about **code quality, observability, and long-term maintainability**.
-
-If you’re building something in this space and need someone who loves **TypeScript, C#/.NET, Python, ML, and security**, I’d love to chat.
+[markdeguzman.com](https://www.markdeguzman.com)
